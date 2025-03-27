@@ -1,0 +1,47 @@
+.modal-outer{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-inner{
+    position: relative;
+    background-color: white;
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.closing-button{
+    position:absolute;
+    top:0px;
+    right:0px;
+    background: transparent;
+    font-size: larger;
+    border:none;
+    outline: none;
+    color: black;
+}
+
+.closing-button:hover, .closing-button:focus{
+    outline: none;
+    border: none;
+}
+.contacts-content{
+    position:relative;
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    outline: 1px solid lightgray;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

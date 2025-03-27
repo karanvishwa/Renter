@@ -1,0 +1,100 @@
+.base-screen{
+    position:fixed;
+    height: 100vh;
+    width: 100vw;
+    background-color:rgb(0, 0, 0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-container{
+    position:absolute;
+    height: 80%;
+    width: 80%;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5px;
+    align-items: center;
+}
+
+
+.formik-form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-left:40px;
+    padding-right: 40px;
+    height: 80%;
+    width: 40%;
+    color:black;
+    gap:5%;
+    border: 0.5px solid grey;
+    border-radius: 1%;
+    background-color: rgba(226, 227, 227, 0.24);
+    overflow: auto;
+
+}
+
+.formik-form::-webkit-scrollbar{
+    width: 5px;
+}
+
+.formik-form::-webkit-scrollbar-thumb{
+    background-color: grey;
+    border-radius: 10px;
+}
+
+.form-submit-button{
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: background-color 0.1s ease-in-out;
+    padding-right: 10%;
+
+}
+
+.form-submit-button:hover{
+    background-color: rgb(0, 98, 255);
+    font-weight: 600;
+}
+
+.date-class{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.close-button{
+    position:absolute;
+    top:0px;
+    right:0px;
+    background: transparent;
+    font-size: 200%;
+    border:none;
+    outline: none;
+    color: black;
+}
+
+.close-button:hover, .close-button:focus{
+    outline: none;
+    border: none;
+}
+
+.rentalform-heading{
+    position: relative;
+    background-color: transparent;
+    width: 42%;
+    color: rgb(89, 88, 88);
+    font-weight: 700;
+    text-align: start;
+    box-sizing: border-box;
+    padding-top: 10px;
+    font-size: 20px;
+}
