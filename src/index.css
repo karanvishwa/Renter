@@ -5,13 +5,21 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
+  /* background-color: yellow; */
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+html, body {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
 
 a {
   font-weight: 500;
@@ -25,9 +33,11 @@ a:hover {
 html,body {
   margin: 0;
   display: flex;
-  place-items: center;
-  min-width: 320px;
+  width: 100%;
+  min-width: 100vw;
+  /* min-width: 320px; */
   min-height: 100vh;
+  background-color: white;
 }
 
 h1 {
@@ -55,11 +65,11 @@ button:focus-visible {
 }
 
 #root{
-  position: absolute;
-  width: 100%;
-  height: 100%;
+  position:absolute;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  min-width: 100vw;
 }
 
 @media (prefers-color-scheme: light) {
