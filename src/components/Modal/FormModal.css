@@ -12,7 +12,9 @@
 .form-container{
     position:absolute;
     height: 80%;
-    width: 80%;
+    min-width: 900px;    
+    max-width: 1400px;
+    width: 100%;
     background-color:white;
     display: flex;
     flex-direction: column;
@@ -30,7 +32,7 @@
     padding-left:40px;
     padding-right: 40px;
     height: 80%;
-    width: 40%;
+    min-width: 650px;
     color:black;
     gap:5%;
     border: 0.5px solid grey;

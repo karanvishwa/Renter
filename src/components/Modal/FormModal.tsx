@@ -1,4 +1,4 @@
-import { Field, FieldProps, Form, Formik, FormikProps, FormikValues } from "formik";
+import { Field, FieldProps, Form, Formik, FormikProps } from "formik";
 
 import "./FormModal.css"
 import { InputText } from "../InputComponent/InputText";
@@ -77,7 +77,7 @@ export function FormModal({ setFormModal }: Props) {
                                 )}>
                             </Field>
                         </div>
-                        <Field className="inputs" name="betaPrice"
+                        <Field className="inputs" name="typeOfWork"
                             render={(fieldProps: FieldProps) => (
                                 <InputText placeHolderText="Ex: Excavation" labelName="Type of work" fieldProps={fieldProps}></InputText>
                             )}>

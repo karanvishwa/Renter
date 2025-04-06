@@ -7,17 +7,17 @@ var descriptions = "The Tata Hitachi SHINRAI Earth Mover is a high-performance b
 
 var summary = "Sample description"
 
-interface Props{
-    setVideoModal:React.Dispatch<React.SetStateAction<string>>;
-    setFormModal:React.Dispatch<React.SetStateAction<boolean>>;
+interface Props {
+    setVideoModal: React.Dispatch<React.SetStateAction<string>>;
+    setFormModal: React.Dispatch<React.SetStateAction<boolean>>;
 }
 
 
-export function Earth({setFormModal,setVideoModal}:Props) {
+export function Earth({ setFormModal, setVideoModal }: Props) {
     return (
         <>
             <div className='main-body'>
-                <UpperBody setFormModal={setFormModal}/>
+                <UpperBody setFormModal={setFormModal} />
                 <span className='service-description'>Service experience</span>
                 <LowerBody descriptions={descriptions} />
             </div>

@@ -11,7 +11,7 @@ export function ContactsModal({setModal}:Props){
     return(
         <>
         <div className="modal-outer">
-            <div className="modal-inner">
+            <div className="modal-inner-contact-modal">
                 <button onClick={()=>{
                     setModal(false)
                 }} className="closing-button">&times;</button>
